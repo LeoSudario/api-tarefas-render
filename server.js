@@ -17,7 +17,8 @@ app.get("/tarefas", (req, res) => {
     mensagem: "Tarefas carregadas com sucesso",
     total: tarefas.length,
     tarefas: tarefas,
-    color: "#4CAF50"
+    color: "#4CAF50",
+    Date: new Date().toISOString()
   });
 });
 
