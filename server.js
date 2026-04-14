@@ -16,7 +16,8 @@ app.get("/tarefas", (req, res) => {
   res.json({
     mensagem: "Tarefas carregadas com sucesso",
     total: tarefas.length,
-    tarefas: tarefas
+    tarefas: tarefas,
+    color: "#4CAF50"
   });
 });
 
